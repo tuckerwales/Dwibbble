@@ -28,7 +28,6 @@
 	NSString *creationDate;
 	NSMutableData *connectionData;
 	NSArray *parsedJson;
-	BOOL	allDone;
 }
 
 - (DwibbblePlayer *)initWithPlayerID:(NSString *)playerID;
@@ -51,6 +50,5 @@
 - (int)reboundsReceived;
 - (NSString *)creationDate;
 - (void)setDetails;
-- (BOOL)allDone;
 
 @end

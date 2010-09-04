@@ -15,7 +15,6 @@
 - (DwibbblePlayer *)initWithPlayerID:(NSString *)p {
 	self = [super init];
 	if (self) {
-		allDone = NO;
 		playerID = p;
 		NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
 		NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
@@ -94,10 +93,6 @@
 	return creationDate;
 }
 
-- (BOOL)allDone {
-	return allDone;
-}
-
 #pragma mark Connection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
@@ -138,7 +133,6 @@
 	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
 	reboundsReceived = (int)[parsedJson valueForKey:@"rebounds_received_count"];
 	creationDate = [parsedJson valueForKey:@"created_at"];
-	allDone = YES;
 }
 
 @end
