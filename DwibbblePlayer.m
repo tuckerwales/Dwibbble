@@ -17,11 +17,12 @@
 	self = [super init];
 	if (self) {
 		playerID = p;
-		[self gatherInformation];
 	}
+	return self;
 }
 
-- (void)gatherInformation {
+- (void)getPlayerInformation {
+	// Implement player information parsing here.
 }
 
 - (int)playerID {

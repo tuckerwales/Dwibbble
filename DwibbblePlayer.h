@@ -30,7 +30,7 @@
 }
 
 + (DwibbblePlayer *)initWithPlayerID:(int)p;
-- (void)gatherInformation;
+- (void)getPlayerInformation;
 
 - (int)playerID;
 - (NSString *)url;

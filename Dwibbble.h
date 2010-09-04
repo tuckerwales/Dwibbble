@@ -13,12 +13,11 @@
 	
 }
 
-
 - (DwibbbleShot *)shotForID:(int)shotID;
-- (DwibbbleRebounds *)reboundsForID:(int)shotID;
-- (DwibbbleComments *)commentsForID:(int)shotID;
+- (DwibbblePlayer *)playerForID:(NSString *)playerID;
+- (DwibbbleCluster *)reboundsForID:(int)shotID;
+- (DwibbbleCluster *)commentsForID:(int)shotID;
 - (DwibbbleCluster *)shotsForPlayerID:(NSString *)playerID;
 - (DwibbbleCluster *)shotsForList:(NSString *)list;
-- (DwibbblePlayer *)playerForID:(NSString *)playerID;
 
 @end
