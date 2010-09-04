@@ -14,12 +14,9 @@
 
 
 @interface Dwibbble : NSObject {
-	NSString *APIEndpoint;
 }
 
-+ (Dwibbble *)init;
 + (NSString *)version;
-- (NSString *)APIEndpoint;
 
 #pragma mark API Interaction Methods
 

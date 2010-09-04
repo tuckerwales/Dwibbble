@@ -11,43 +11,31 @@
 
 @implementation Dwibbble
 
-+ (Dwibbble *)init {
-	self = [super init];
-	if (self) {
-		APIEndpoint = @"http://dribbble.com/";
-	}
-	return self;
-}
-
 + (NSString *)version {
 	return VERSION;
 }
 
-- (NSString *)APIEndpoint {
-	return APIEndpoint;
-}
-
 - (DwibbbleShot *)shotForID:(int)shotID {
-	
+	return [[DwibbbleShot alloc] initWithShotID:shotID];
 }
 
 - (DwibbblePlayer *)playerForID:(NSString *)playerID {
-	
+	return [[DwibbblePlayer alloc] initWithPlayerID:playerID];
 }
 
 - (DwibbbleCluster *)reboundsForID:(int)shotID {
-	
+	// Yet to be implemeneted.
 }
 - (DwibbbleCluster *)commentsForID:(int)shotID {
-	
+	// Yet to be implemeneted.
 }
 
 - (DwibbbleCluster *)shotsForPlayerID:(NSString *)playerID {
-	
+	// Yet to be implemeneted.
 }
 
 - (DwibbbleCluster *)shotsForList:(NSString *)list {
-	
+	// Yet to be implemeneted.
 }
 	
 @end
