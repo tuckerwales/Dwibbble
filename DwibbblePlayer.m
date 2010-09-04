@@ -11,7 +11,6 @@
 
 @implementation DwibbblePlayer
 
-
 - (DwibbblePlayer *)initWithPlayerID:(NSString *)p {
 	self = [super init];
 	if (self) {
