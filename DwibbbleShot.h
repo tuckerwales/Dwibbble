@@ -20,8 +20,11 @@
 	int		commentsCount;
 	int		reboundsCount;
 	NSString *creationDate;
-	DwibbblePlayer *player;
+	NSMutableData *connectionData;
+	NSArray *parsedJson;
 }
+
+- (DwibbbleShot *)initWithShotID:(int)shot;
 
 - (int)shotID;
 - (NSString *)title;
@@ -33,6 +36,6 @@
 - (int)commentsCount;
 - (int)reboundsCount;
 - (NSString *)creationDate;
-- (DwibbblePlayer *)player;
+- (void)setDetails;
 
 @end
