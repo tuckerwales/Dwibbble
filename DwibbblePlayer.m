@@ -7,25 +7,26 @@
 //
 
 #import "DwibbblePlayer.h"
-
+#import "JSON.h"
 
 @implementation DwibbblePlayer
 
-@synthesize playerID;
 
-+ (DwibbblePlayer *)initWithPlayerID:(int)p {
+- (DwibbblePlayer *)initWithPlayerID:(NSString *)p {
 	self = [super init];
 	if (self) {
+		allDone = NO;
 		playerID = p;
+		NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
+		NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
+		[NSURLConnection connectionWithRequest:req delegate:self];
 	}
 	return self;
 }
 
-- (void)getPlayerInformation {
-	// Implement player information parsing here.
-}
+#pragma mark Instance Variable Getters
 
-- (int)playerID {
+- (NSString *)playerID {
 	return playerID;
 }
 
@@ -47,6 +48,10 @@
 
 - (int)shots {
 	return shots;
+}
+
+- (NSString *)drafter {
+	return drafter;
 }
 
 - (int)draftees {
@@ -89,8 +94,51 @@
 	return creationDate;
 }
 
-- (BOOL)complete {
-	return complete;
+- (BOOL)allDone {
+	return allDone;
+}
+
+#pragma mark Connection Delegate Methods
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
+	NSString *string = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
+	NSLog(@"%@", string);
+	[string release];
+	if (connectionData == nil) {
+		connectionData = [[NSMutableData data] retain];
+	}
+	[connectionData appendData:data];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	NSLog(@"Connection Finished!");
+	SBJsonParser *parser = [[SBJsonParser alloc] init];
+	NSString *responseString = [[NSString alloc] initWithData:connectionData encoding:NSUTF8StringEncoding];
+	[connectionData release];
+	parsedJson = [parser objectWithString:responseString];
+	[responseString release];
+	[parser release];
+	[self setDetails];
+}
+
+- (void)setDetails {
+	url = [parsedJson valueForKey:@"url"];
+	avatarURL = [parsedJson valueForKey:@"avatar_url"];
+	location = [parsedJson valueForKey:@"location"];
+	twitter = [parsedJson valueForKey:@"twitter_screen_name"];
+	drafter = [parsedJson valueForKey:@"drafted_by_player_id"];
+	shots = (int)[parsedJson valueForKey:@"shots_count"];
+	draftees = (int)[parsedJson valueForKey:@"draftees_count"];
+	followers = (int)[parsedJson valueForKey:@"followers_count"];
+	following = (int)[parsedJson valueForKey:@"following_count"];
+	commentsCount = (int)[parsedJson valueForKey:@"comments_count"];
+	commentsReceived = (int)[parsedJson valueForKey:@"comments_received_count"];
+	likesCount = (int)[parsedJson valueForKey:@"likes_count"];
+	likesReceived = (int)[parsedJson valueForKey:@"likes_received_count"];
+	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
+	reboundsReceived = (int)[parsedJson valueForKey:@"rebounds_received_count"];
+	creationDate = [parsedJson valueForKey:@"created_at"];
+	allDone = YES;
 }
 
 @end

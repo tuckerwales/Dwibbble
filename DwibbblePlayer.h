@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface DwibbblePlayer : NSObject {
-	int		playerID;
+	NSString *playerID;
 	NSString *url;
 	NSString *avatarURL;
 	NSString *location;
 	NSString *twitter;
 	int		shots;
+	NSString *drafter;
 	int		draftees;
 	int		followers;
 	int		following;
@@ -26,18 +26,20 @@
 	int		reboundsCount;
 	int		reboundsReceived;
 	NSString *creationDate;
-	BOOL	complete;
+	NSMutableData *connectionData;
+	NSArray *parsedJson;
+	BOOL	allDone;
 }
 
-+ (DwibbblePlayer *)initWithPlayerID:(int)p;
-- (void)getPlayerInformation;
+- (DwibbblePlayer *)initWithPlayerID:(NSString *)playerID;
 
-- (int)playerID;
+- (NSString *)playerID;
 - (NSString *)url;
 - (NSString *)avatarURL;
 - (NSString *)location;
 - (NSString *)twitter;
 - (int)shots;
+- (NSString *)drafter;
 - (int)draftees;
 - (int)followers;
 - (int)following;
@@ -48,6 +50,7 @@
 - (int)reboundsCount;
 - (int)reboundsReceived;
 - (NSString *)creationDate;
-- (BOOL)complete;
+- (void)setDetails;
+- (BOOL)allDone;
 
 @end

@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DwibbbleGeneral.h"
+#import "DwibbbleCluster.h"
+#import "DwibbblePlayer.h"
+#import "DwibbbleShot.h"
 
 
 @interface Dwibbble : NSObject {
-	
+	NSString *APIEndpoint;
 }
+
++ (Dwibbble *)init;
++ (NSString *)version;
+- (NSString *)APIEndpoint;
+
+#pragma mark API Interaction Methods
 
 - (DwibbbleShot *)shotForID:(int)shotID;
 - (DwibbblePlayer *)playerForID:(NSString *)playerID;
