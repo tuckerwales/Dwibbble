@@ -66,7 +66,7 @@
 #pragma mark Connection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
-	NSLog(@"We're also here...!");
+	NSLog(@"Receiving data...");
 	NSString *string = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
 	NSLog(@"%@", string);
 	[string release];
@@ -96,7 +96,7 @@
 	likesCount = (int)[parsedJson valueForKey:@"likes_count"];
 	commentsCount = (int)[parsedJson valueForKey:@"comments_count"];
 	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
-	NSLog(@"We just set all the details...");
+	NSLog(@"We just set all the shot details...");
 }
 
 @end

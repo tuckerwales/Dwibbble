@@ -93,6 +93,7 @@
 #pragma mark Connection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
+	NSLog(@"Receiving data...");
 	NSString *string = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
 	NSLog(@"%@", string);
 	[string release];
