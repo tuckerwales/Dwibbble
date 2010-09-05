@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+@class DwibbblePlayer;
+
+@protocol DwibbblePlayerDelegate
+@required
+- (void)receivedPlayer:(DwibbblePlayer *)player;
+@end
+
 @interface DwibbblePlayer : NSObject {
+	id		delegate;
 	NSString *playerID;
 	NSString *url;
 	NSString *avatarURL;
@@ -30,7 +38,9 @@
 	NSArray *parsedJson;
 }
 
-- (DwibbblePlayer *)initWithPlayerID:(NSString *)playerID;
+@property (nonatomic, assign) id delegate;
+
+- (void)getPlayerWithID:(NSString *)p;
 
 - (NSString *)playerID;
 - (NSString *)url;

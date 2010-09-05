@@ -11,16 +11,14 @@
 
 @implementation DwibbbleShot
 
-- (DwibbbleShot *)initWithShotID:(int)shot {
-	self = [super init];
-	if (self) {
-		shotID = shot;
-		NSLog(@"We're here!");
-		NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/shots/%i", shot]];
-		NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
-		[NSURLConnection connectionWithRequest:req delegate:self];
-	}
-	return self;
+@synthesize delegate;
+
+- (void)getShotWithID:(int)shot {
+	shotID = shot;
+	NSLog(@"We're here!");
+	NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/shots/%i", shot]];
+	NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
+	[NSURLConnection connectionWithRequest:req delegate:self];
 }
 
 #pragma mark Instance Variable Getters
@@ -98,6 +96,7 @@
 	likesCount = (int)[parsedJson valueForKey:@"likes_count"];
 	commentsCount = (int)[parsedJson valueForKey:@"comments_count"];
 	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
+	NSLog(@"We just set all the details...");
 }
 
 @end

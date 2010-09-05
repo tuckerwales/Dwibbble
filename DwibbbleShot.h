@@ -7,9 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DwibbblePlayer.h"
+
+@class DwibbbleShot;
+
+@protocol DwibbbleShotDelegate
+@required
+- (void)receivedShot:(DwibbbleShot *)shot;
+@end
+
 
 @interface DwibbbleShot : NSObject {
+	id		delegate;
 	int		shotID;
 	NSString *title;
 	NSString *url;
@@ -24,7 +32,9 @@
 	NSArray *parsedJson;
 }
 
-- (DwibbbleShot *)initWithShotID:(int)shot;
+@property (nonatomic, assign) id delegate;
+
+- (void)getShotWithID:(int)shot;
 
 - (int)shotID;
 - (NSString *)title;

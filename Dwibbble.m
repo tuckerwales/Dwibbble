@@ -2,40 +2,36 @@
 //  Dwibbble.m
 //  
 //
-//  Created by Joshua Lee Tucker on 04/09/2010.
+//  Created by Joshua Lee Tucker on 05/09/2010.
 //  Copyright 2010 Stunnify. All rights reserved.
 //
 
 #import "Dwibbble.h"
 
-
 @implementation Dwibbble
 
-+ (NSString *)version {
-	return VERSION;
+@synthesize delegate;
+
+- (void)getShotWithID:(int)shotID {
+	shot = [[DwibbbleShot alloc] init];
+	shot.delegate = self;
+	[shot getShotWithID:shotID];
 }
 
-- (DwibbbleShot *)shotForID:(int)shotID {
-	return [[DwibbbleShot alloc] initWithShotID:shotID];
+- (void)getPlayerWithID:(NSString *)playerID {
+	player = [[DwibbblePlayer alloc] init];
+	player.delegate = self;
+	[player getPlayerWithID:playerID];
 }
 
-- (DwibbblePlayer *)playerForID:(NSString *)playerID {
-	return [[DwibbblePlayer alloc] initWithPlayerID:playerID];
+- (void)receivedShot:(DwibbbleShot *)receivedShot {
+	NSLog(@"Well, this function was certainly called!");
+	[self.delegate didReceiveShot:receivedShot];
 }
 
-- (DwibbbleCluster *)reboundsForID:(int)shotID {
-	// Yet to be implemeneted.
-}
-- (DwibbbleCluster *)commentsForID:(int)shotID {
-	// Yet to be implemeneted.
+- (void)receivedPlayer:(DwibbblePlayer *)receivedPlayer {
+	NSLog(@"Houston, we received a player!");
+	[self.delegate didReceivePlayer:receivedPlayer];
 }
 
-- (DwibbbleCluster *)shotsForPlayerID:(NSString *)playerID {
-	// Yet to be implemeneted.
-}
-
-- (DwibbbleCluster *)shotsForList:(NSString *)list {
-	// Yet to be implemeneted.
-}
-	
 @end

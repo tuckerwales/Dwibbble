@@ -11,15 +11,13 @@
 
 @implementation DwibbblePlayer
 
-- (DwibbblePlayer *)initWithPlayerID:(NSString *)p {
-	self = [super init];
-	if (self) {
-		playerID = p;
-		NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
-		NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
-		[NSURLConnection connectionWithRequest:req delegate:self];
-	}
-	return self;
+@synthesize delegate;
+
+- (void)getPlayerWithID:(NSString *)p {
+	playerID = p;
+	NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
+	NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
+	[NSURLConnection connectionWithRequest:req delegate:self];
 }
 
 #pragma mark Instance Variable Getters
@@ -132,6 +130,8 @@
 	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
 	reboundsReceived = (int)[parsedJson valueForKey:@"rebounds_received_count"];
 	creationDate = [parsedJson valueForKey:@"created_at"];
+	NSLog(@"We just set all the player details...");
+	[self.delegate receivedPlayer:self];
 }
 
 @end
