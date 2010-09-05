@@ -34,4 +34,12 @@
 	[self.delegate didReceivePlayer:receivedPlayer];
 }
 
+<<<<<<< HEAD
+- (void)receivedError:(NSError *)error {
+	NSLog(@"Marshall, we have an error!");
+	[self.delegate didReceiveError:error];
+}
+
+=======
+>>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 @end

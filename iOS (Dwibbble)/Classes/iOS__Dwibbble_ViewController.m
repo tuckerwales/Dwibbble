@@ -41,6 +41,14 @@
 	
 }
 
+<<<<<<< HEAD
+- (void)didReceiveError:(NSError *)error {
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"%@", [error description]] delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+	[alert show];
+}
+
+=======
+>>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 
 /*
 // Override to allow orientations other than the default portrait orientation.
