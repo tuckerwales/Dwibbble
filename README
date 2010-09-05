@@ -1,6 +1,13 @@
 Dwibbble
 Written by Joshua Lee Tucker for Stunnify.
 
+Clearing some things up...
+==========================
+
+A 'player' is a Dribbble user.
+A 'shot' is a design that a designer uploads to Dribbble.
+A 'rebound' is a response to a shot that a designer has uploaded to Dribbble.
+
 If you use Dwibbble, please give attribution to Joshua Lee Tucker or Stunnify.
 
 Please read the LICENSE file for more information.
