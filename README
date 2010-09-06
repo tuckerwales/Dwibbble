@@ -11,7 +11,12 @@ A 'rebound' is a response to a shot that a player has uploaded to Dribbble.
 How to use Dwibbble
 ===================
 
-Dwibbble uses the SystemConfiguration framework to check for a connection to the internet. The first thing you need to do is add SystemConfiguration.framework to your project.
+Dwibbble uses the SystemConfiguration framework to check for a connection to the internet. The first thing you need to do is add SystemConfiguration.framework to your project. (Otherwise Dwibbble will not build).
+
+Dwibbble uses a delegate protocol which helps to keep everything very clean and simple. You NEVER have to (nor should) create anything but a Dwibbble object (no DwibbblePlayer or DwibbbleShot objects).
+
+About
+=====
 
 If you use Dwibbble, please give attribution to Joshua Lee Tucker or Stunnify.
 
