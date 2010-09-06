@@ -11,7 +11,7 @@ A 'rebound' is a response to a shot that a player has uploaded to Dribbble.
 How to use Dwibbble
 ===================
 
-NOT ADDED YET!
+Dwibbble uses the SystemConfiguration framework to check for a connection to the internet. It passes the result from this check back to it's delegate by using the delegate method -(void)didReceiveError:(NSString *)error.
 
 If you use Dwibbble, please give attribution to Joshua Lee Tucker or Stunnify.
 
