@@ -44,6 +44,7 @@
 - (void)didReceiveError:(NSError *)error {
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"%@", [error description]] delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
 	[alert show];
+	[alert release];
 }
 
 /*
