@@ -88,6 +88,9 @@
 			56CBAB5D12351042008C5512 /* PBXTextBookmark */ = 56CBAB5D12351042008C5512 /* PBXTextBookmark */;
 			56CBAB6312351087008C5512 /* PBXTextBookmark */ = 56CBAB6312351087008C5512 /* PBXTextBookmark */;
 			56CBAB65123510C0008C5512 /* PBXTextBookmark */ = 56CBAB65123510C0008C5512 /* PBXTextBookmark */;
+			56CBAB66123514A5008C5512 /* PBXTextBookmark */ = 56CBAB66123514A5008C5512 /* PBXTextBookmark */;
+			56CBAB711235295E008C5512 /* PBXTextBookmark */ = 56CBAB711235295E008C5512 /* PBXTextBookmark */;
+			56CBAB721235295E008C5512 /* PBXTextBookmark */ = 56CBAB721235295E008C5512 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 56CBA8981234F65F008C5512 /* Source Control */;
 		userBuildSettings = {
@@ -159,6 +162,12 @@
 		};
 	};
 	56CBA8B51234F6F4008C5512 /* Dwibbble.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Dwibbble.h;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/Dwibbble.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 572}}";
 			sepNavSelRange = "{314, 0}";
@@ -166,6 +175,12 @@
 		};
 	};
 	56CBA8B61234F6F4008C5512 /* Dwibbble.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Dwibbble.m;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/Dwibbble.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 884}}";
 			sepNavSelRange = "{1158, 0}";
@@ -173,6 +188,12 @@
 		};
 	};
 	56CBA8B71234F6F4008C5512 /* DwibbbleCluster.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DwibbbleCluster.h;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/DwibbbleCluster.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 491}}";
 			sepNavSelRange = "{0, 0}";
@@ -180,6 +201,12 @@
 		};
 	};
 	56CBA8B91234F6F4008C5512 /* DwibbblePlayer.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DwibbblePlayer.h;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/DwibbblePlayer.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 1222}}";
 			sepNavSelRange = "{284, 0}";
@@ -187,6 +214,12 @@
 		};
 	};
 	56CBA8BA1234F6F4008C5512 /* DwibbblePlayer.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = DwibbblePlayer.m;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/DwibbblePlayer.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {866, 2093}}";
 			sepNavSelRange = "{2758, 0}";
@@ -194,17 +227,16 @@
 		};
 	};
 	56CBA8BB1234F6F4008C5512 /* DwibbbleShot.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DwibbbleShot.h;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/DwibbbleShot.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 871}}";
 			sepNavSelRange = "{412, 0}";
 			sepNavVisRange = "{0, 698}";
-		};
-	};
-	56CBA8BC1234F6F4008C5512 /* DwibbbleShot.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {824, 1443}}";
-			sepNavSelRange = "{205, 0}";
-			sepNavVisRange = "{1678, 435}";
 		};
 	};
 	56CBA8CF1234F732008C5512 /* PlistBookmark */ = {
@@ -220,6 +252,12 @@
 		rLoc = 9223372036854775808;
 	};
 	56CBA9301234F970008C5512 /* Reachability.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Reachability.h;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/Reachability.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 1144}}";
 			sepNavSelRange = "{0, 0}";
@@ -227,6 +265,12 @@
 		};
 	};
 	56CBA9311234F970008C5512 /* Reachability.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Reachability.m;
+		path = /Users/DarkMalloc/Desktop/Dwibbble/Reachability.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 3224}}";
 			sepNavSelRange = "{0, 0}";
@@ -666,5 +710,35 @@
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 607;
+	};
+	56CBAB66123514A5008C5512 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 56CBA8B61234F6F4008C5512 /* Dwibbble.m */;
+		name = "Dwibbble.m: 49";
+		rLen = 0;
+		rLoc = 1158;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 607;
+	};
+	56CBAB711235295E008C5512 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 56CBA89E1234F68A008C5512 /* iOS__Dwibbble_ViewController.m */;
+		name = "iOS__Dwibbble_ViewController.m: 27";
+		rLen = 0;
+		rLoc = 582;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 468;
+	};
+	56CBAB721235295E008C5512 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 56CBA89E1234F68A008C5512 /* iOS__Dwibbble_ViewController.m */;
+		name = "iOS__Dwibbble_ViewController.m: 27";
+		rLen = 0;
+		rLoc = 582;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 468;
 	};
 }

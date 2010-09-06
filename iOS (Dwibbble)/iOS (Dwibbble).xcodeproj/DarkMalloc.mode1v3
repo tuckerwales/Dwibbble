@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -264,15 +266,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>56CBA8B41234F6E5008C5512</string>
 								<string>56CBA89A1234F68A008C5512</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -307,14 +307,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Dwibbble.m</string>
+								<string>iOS__Dwibbble_ViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +320,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Dwibbble.m</string>
+										<string>iOS__Dwibbble_ViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>56CBAB65123510C0008C5512</string>
+										<string>56CBAB721235295E008C5512</string>
 										<key>history</key>
 										<array>
 											<string>56CBA8CF1234F732008C5512</string>
@@ -338,11 +336,7 @@
 											<string>56CBAA4A1234FF07008C5512</string>
 											<string>56CBAA4B1234FF07008C5512</string>
 											<string>56CBAA551234FF32008C5512</string>
-											<string>56CBAAD612350663008C5512</string>
-											<string>56CBAAD812350663008C5512</string>
-											<string>56CBAB0912350C93008C5512</string>
-											<string>56CBAB1E12350CE6008C5512</string>
-											<string>56CBAB1F12350CE6008C5512</string>
+											<string>56CBAB711235295E008C5512</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
