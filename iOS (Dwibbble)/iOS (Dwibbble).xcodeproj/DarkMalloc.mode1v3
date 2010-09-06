@@ -273,7 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
+									<integer>3</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DwibbblePlayer.h</string>
+								<string>Dwibbble.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,16 +322,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DwibbblePlayer.h</string>
+										<string>Dwibbble.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>56CBA9071234F7C7008C5512</string>
+										<string>56CBA9151234F8AE008C5512</string>
 										<key>history</key>
 										<array>
 											<string>56CBA8CF1234F732008C5512</string>
 											<string>56CBA9021234F78F008C5512</string>
-											<string>56CBA9031234F78F008C5512</string>
+											<string>56CBA9121234F8AE008C5512</string>
+											<string>56CBA9131234F8AE008C5512</string>
+											<string>56CBA9141234F8AE008C5512</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -528,6 +531,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>56CBA9161234F8AE008C5512</string>
+		<string>56CBA9171234F8AE008C5512</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>56CBA8A51234F6B9008C5512</string>
