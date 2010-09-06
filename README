@@ -17,6 +17,12 @@ Dwibbble uses a delegate protocol which helps to keep everything very clean and 
 
 You ask for all your data through your Dwibbble object using methods such as -getPlayerWithID: and -getShotWithID:. This data is then returned to you as the correct object via the delegate protocol. 
 
+There are 3 delegate protocol methods which you are required to implement in your Dwibbble delegate. These are didReceivePlayer:, didReceiveShot: and didReceiveError:. They all pass ready-to-use information to your delegate.
+
+I have included an example for iOS using the 4.0 SDK which shows you how to implement Dwibbble in an application. My example shows you how to get a player's avatar using Dwibbble.
+
+I hope you enjoy using Dwibbble, it's certainly fun to write and maintain such a useful library.
+
 About
 =====
 
