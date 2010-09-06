@@ -13,7 +13,7 @@ How to use Dwibbble
 
 Dwibbble uses the SystemConfiguration framework to check for a connection to the internet. The first thing you need to do is add SystemConfiguration.framework to your project. (Otherwise Dwibbble will not build).
 
-Dwibbble uses a delegate protocol which helps to keep everything very clean and simple. You NEVER have to (nor should) create anything but a Dwibbble object (no DwibbblePlayer or DwibbbleShot objects).
+Dwibbble uses a delegate protocol which helps to keep everything very clean and simple. You NEVER have to (nor should) create anything but a Dwibbble object (no DwibbblePlayer or DwibbbleShot objects). You ask for all your data through your Dwibbble object using methods such as -getPlayerWithID: and -getShotWithID:. This data is then returned to you as the correct object via the delegate protocol. 
 
 About
 =====
