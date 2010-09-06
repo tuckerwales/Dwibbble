@@ -24,6 +24,8 @@
 		56CBA8E01234F738008C5512 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA8D91234F738008C5512 /* SBJsonBase.m */; };
 		56CBA8E11234F738008C5512 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA8DB1234F738008C5512 /* SBJsonParser.m */; };
 		56CBA8E21234F738008C5512 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA8DD1234F738008C5512 /* SBJsonWriter.m */; };
+		56CBA9321234F970008C5512 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA9311234F970008C5512 /* Reachability.m */; };
+		56CBA9401234F9A9008C5512 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CBA93F1234F9A9008C5512 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,9 @@
 		56CBA8DB1234F738008C5512 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		56CBA8DC1234F738008C5512 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		56CBA8DD1234F738008C5512 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		56CBA9301234F970008C5512 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../Desktop/Dwibbble/Reachability.h; sourceTree = SOURCE_ROOT; };
+		56CBA9311234F970008C5512 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../Desktop/Dwibbble/Reachability.m; sourceTree = SOURCE_ROOT; };
+		56CBA93F1234F9A9008C5512 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* iOS__Dwibbble_-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS__Dwibbble_-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +74,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				56CBA9401234F9A9008C5512 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +128,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				56CBA93F1234F9A9008C5512 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +147,8 @@
 		56CBA8B41234F6E5008C5512 /* Dwibbble */ = {
 			isa = PBXGroup;
 			children = (
+				56CBA9301234F970008C5512 /* Reachability.h */,
+				56CBA9311234F970008C5512 /* Reachability.m */,
 				56CBA8B51234F6F4008C5512 /* Dwibbble.h */,
 				56CBA8B61234F6F4008C5512 /* Dwibbble.m */,
 				56CBA8B71234F6F4008C5512 /* DwibbbleCluster.h */,
@@ -237,6 +246,7 @@
 				56CBA8E01234F738008C5512 /* SBJsonBase.m in Sources */,
 				56CBA8E11234F738008C5512 /* SBJsonParser.m in Sources */,
 				56CBA8E21234F738008C5512 /* SBJsonWriter.m in Sources */,
+				56CBA9321234F970008C5512 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
