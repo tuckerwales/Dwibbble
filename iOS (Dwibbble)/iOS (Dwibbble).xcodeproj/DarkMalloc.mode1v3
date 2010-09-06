@@ -273,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>13</integer>
+									<integer>6</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iOS__Dwibbble_ViewController.m</string>
+								<string>Dwibbble.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,27 +322,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iOS__Dwibbble_ViewController.m</string>
+										<string>Dwibbble.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>56CBAA8F1235055B008C5512</string>
+										<string>56CBAADA12350663008C5512</string>
 										<key>history</key>
 										<array>
 											<string>56CBA8CF1234F732008C5512</string>
-											<string>56CBAA401234FF07008C5512</string>
 											<string>56CBAA411234FF07008C5512</string>
 											<string>56CBAA431234FF07008C5512</string>
 											<string>56CBAA451234FF07008C5512</string>
 											<string>56CBAA461234FF07008C5512</string>
-											<string>56CBAA471234FF07008C5512</string>
 											<string>56CBAA491234FF07008C5512</string>
 											<string>56CBAA4A1234FF07008C5512</string>
 											<string>56CBAA4B1234FF07008C5512</string>
-											<string>56CBAA4D1234FF07008C5512</string>
 											<string>56CBAA551234FF32008C5512</string>
+											<string>56CBAAD612350663008C5512</string>
+											<string>56CBAAD712350663008C5512</string>
+											<string>56CBAAD812350663008C5512</string>
+											<string>56CBAAD912350663008C5512</string>
 											<string>56CBAA5F12350326008C5512</string>
-											<string>56CBAA8E1235055B008C5512</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {854, 520}}</string>
+								<string>{{0, 0}, {854, 517}}</string>
 								<key>RubberWindowFrame</key>
 								<string>150 123 1062 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>520pt</string>
+							<string>517pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +374,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 525}, {854, 89}}</string>
+								<string>{{0, 522}, {854, 92}}</string>
 								<key>RubberWindowFrame</key>
 								<string>150 123 1062 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>89pt</string>
+							<string>92pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>56CBAA6212350326008C5512</string>
+				<string>56CBAADB12350663008C5512</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>56CBAA6312350326008C5512</string>
+				<string>56CBAADC12350663008C5512</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,8 +540,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>56CBAAE512350663008C5512</string>
+		<string>56CBAAE612350663008C5512</string>
+		<string>56CBAAE712350663008C5512</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>56CBA8A51234F6B9008C5512</string>
-		<string>/Users/DarkMalloc/Downloads/Stunnify-Dwibbble-107c5c8/iOS (Dwibbble)/iOS (Dwibbble).xcodeproj</string>
+		<string>/Users/DarkMalloc/Desktop/Dwibbble/iOS (Dwibbble)/iOS (Dwibbble).xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>150 123 1062 655 0 0 1280 778 </string>
@@ -621,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>56CBA8A51234F6B9008C5512</string>
-				<string>56CBAA6412350326008C5512</string>
+				<string>56CBAADD12350663008C5512</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -665,8 +670,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -681,8 +686,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -715,7 +720,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>288 256 694 422 0 0 1280 778 </string>
 								</dict>
@@ -743,13 +748,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>56CBA9261234F8E0008C5512</string>
+				<string>56CBAADE12350663008C5512</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>56CBA9271234F8E0008C5512</string>
-				<string>56CBA9281234F8E0008C5512</string>
-				<string>56CBA9291234F8E0008C5512</string>
-				<string>56CBA92A1234F8E0008C5512</string>
-				<string>56CBA92B1234F8E0008C5512</string>
+				<string>56CBAADF12350663008C5512</string>
+				<string>56CBAAE012350663008C5512</string>
+				<string>56CBAAE112350663008C5512</string>
+				<string>56CBAAE212350663008C5512</string>
+				<string>56CBAAE312350663008C5512</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -876,8 +881,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -913,7 +916,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>56CBA92C1234F8E0008C5512</string>
+				<string>56CBAAE412350663008C5512</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

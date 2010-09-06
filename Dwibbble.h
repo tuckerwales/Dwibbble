@@ -13,22 +13,30 @@
 #import "DwibbbleShot.h"
 #import "DwibbblePlayer.h"
 
+@class Reachability;
+
 @protocol DwibbbleDelegate
 @required
 - (void)didReceiveShot:(DwibbbleShot *)shot;
 - (void)didReceivePlayer:(DwibbblePlayer *)player;
-- (void)didReceiveError:(NSError *)error;
+- (void)didReceiveError:(NSString *)error;
 @end
 
 @interface Dwibbble : NSObject <DwibbbleShotDelegate, DwibbblePlayerDelegate> {
 	id delegate;
-	@private
 	DwibbbleShot *shot;
 	DwibbblePlayer *player;
+	Reachability *internetReachable;
+	BOOL internetIsReachable;
 }
+
+@property (readonly) BOOL internetIsReachable;
 
 - (void)getShotWithID:(int)shotID;
 - (void)getPlayerWithID:(NSString *)playerID;
+
+#pragma mark Reachability Methods
+- (void)checkNetworkStatus:(NSNotification *)notification;
 
 @property (nonatomic, assign) id delegate;
 
