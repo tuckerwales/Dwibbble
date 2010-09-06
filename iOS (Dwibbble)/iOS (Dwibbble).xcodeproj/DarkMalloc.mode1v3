@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -298,7 +296,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>150 123 1062 655 0 0 1280 778 </string>
+						<string>69 123 1062 655 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -309,6 +307,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>56CBAADA12350663008C5512</string>
+										<string>56CBAB65123510C0008C5512</string>
 										<key>history</key>
 										<array>
 											<string>56CBA8CF1234F732008C5512</string>
@@ -339,10 +339,10 @@
 											<string>56CBAA4B1234FF07008C5512</string>
 											<string>56CBAA551234FF32008C5512</string>
 											<string>56CBAAD612350663008C5512</string>
-											<string>56CBAAD712350663008C5512</string>
 											<string>56CBAAD812350663008C5512</string>
-											<string>56CBAAD912350663008C5512</string>
-											<string>56CBAA5F12350326008C5512</string>
+											<string>56CBAB0912350C93008C5512</string>
+											<string>56CBAB1E12350CE6008C5512</string>
+											<string>56CBAB1F12350CE6008C5512</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,7 +356,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {854, 517}}</string>
 								<key>RubberWindowFrame</key>
-								<string>150 123 1062 655 0 0 1280 778 </string>
+								<string>69 123 1062 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -376,7 +376,7 @@
 								<key>Frame</key>
 								<string>{{0, 522}, {854, 92}}</string>
 								<key>RubberWindowFrame</key>
-								<string>150 123 1062 655 0 0 1280 778 </string>
+								<string>69 123 1062 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,7 +541,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>56CBAAE512350663008C5512</string>
-		<string>56CBAAE612350663008C5512</string>
 		<string>56CBAAE712350663008C5512</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -549,7 +548,7 @@
 		<string>/Users/DarkMalloc/Desktop/Dwibbble/iOS (Dwibbble)/iOS (Dwibbble).xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>150 123 1062 655 0 0 1280 778 </string>
+	<string>69 123 1062 655 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -881,6 +880,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

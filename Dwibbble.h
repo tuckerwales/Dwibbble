@@ -27,6 +27,7 @@
 	DwibbbleShot *shot;
 	DwibbblePlayer *player;
 	Reachability *internetReachable;
+	Reachability *hostReachable;
 	BOOL internetIsReachable;
 }
 
@@ -36,7 +37,7 @@
 - (void)getPlayerWithID:(NSString *)playerID;
 
 #pragma mark Reachability Methods
-- (void)checkNetworkStatus:(NSNotification *)notification;
+- (BOOL)isReachable;
 
 @property (nonatomic, assign) id delegate;
 

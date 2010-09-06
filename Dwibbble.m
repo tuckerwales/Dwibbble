@@ -14,18 +14,8 @@
 @synthesize delegate;
 @synthesize internetIsReachable;
 
-- (Dwibbble *)init {
-	self = [super init];
-	if (self) {
-		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(checkNetworkStatus:) name:kReachabilityChangedNotification object:nil];
-		internetReachable = [[Reachability reachabilityForInternetConnection] retain];
-		[internetReachable startNotifier];
-	}
-	return self;
-}
-
 - (void)getShotWithID:(int)shotID {
-	if (internetIsReachable) {
+	if ([self isReachable]) {
 		shot = [[DwibbbleShot alloc] init];
 		shot.delegate = self;
 		[shot getShotWithID:shotID];
@@ -35,7 +25,7 @@
 }
 
 - (void)getPlayerWithID:(NSString *)playerID {
-	if (internetIsReachable) {
+	if ([self isReachable]) {
 		player = [[DwibbblePlayer alloc] init];
 		player.delegate = self;
 		[player getPlayerWithID:playerID];
@@ -45,7 +35,7 @@
 }
 
 - (void)receivedShot:(DwibbbleShot *)receivedShot {
-	NSLog(@"Well, this function was certainly called!");
+	NSLog(@"Houston, we received a shot!");
 	[self.delegate didReceiveShot:receivedShot];
 }
 
@@ -60,32 +50,18 @@
 }
 
 #pragma mark Reachability Methods
-- (void)checkNetworkStatus:(NSNotification *)notification {
-	NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
-	switch (internetStatus) {
-		case NotReachable:
-			NSLog(@"The internet is not reachable!");
-			internetIsReachable = NO;
-			[self.delegate didReceiveError:@"No internet connection!"];
-			break;
-		case ReachableViaWiFi:
-			NSLog(@"The internet is reachable via WiFi!");
-			internetIsReachable = YES;
-			break;
-		case ReachableViaWWAN:
-			NSLog(@"The internet is reachable via WiFI!");
-			internetIsReachable = YES;
-			break;
-		default:
-			break;
+
+- (BOOL)isReachable {
+	Reachability *reachability = [Reachability reachabilityWithHostName:@"www.apple.com"];
+	NetworkStatus remoteHostStatus = [reachability currentReachabilityStatus];
+	if (remoteHostStatus == NotReachable) {
+		return NO;
+	} else if (remoteHostStatus == ReachableViaWWAN || ReachableViaWiFi) {
+		return YES;
+	} else {
+		return NO;
 	}
-}
 
-#pragma mark Memory Methods
-
-- (void)dealloc {
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
-	[super dealloc];
 }
 
 @end
