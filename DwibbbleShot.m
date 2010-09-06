@@ -12,7 +12,6 @@
 @implementation DwibbbleShot
 
 @synthesize delegate;
-<<<<<<< HEAD
 @synthesize shotID;
 @synthesize title;
 @synthesize url;
@@ -23,8 +22,6 @@
 @synthesize commentsCount;
 @synthesize reboundsCount;
 @synthesize creationDate;
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 
 - (void)getShotWithID:(int)shot {
 	shotID = shot;

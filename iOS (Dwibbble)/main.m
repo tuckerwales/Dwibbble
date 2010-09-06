@@ -2,7 +2,7 @@
 //  main.m
 //  iOS (Dwibbble)
 //
-//  Created by Joshua Lee Tucker on 05/09/2010.
+//  Created by Joshua Lee Tucker on 06/09/2010.
 //  Copyright Stunnify 2010. All rights reserved.
 //
 

@@ -13,10 +13,7 @@
 @protocol DwibbblePlayerDelegate
 @required
 - (void)receivedPlayer:(DwibbblePlayer *)player;
-<<<<<<< HEAD
 - (void)receivedError:(NSError *)error;
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 @end
 
 @interface DwibbblePlayer : NSObject {
@@ -44,7 +41,6 @@
 
 @property (nonatomic, assign) id delegate;
 
-<<<<<<< HEAD
 // Instance Variable Properties
 // Needed for getters and setters
 @property (readonly) NSString *playerID;
@@ -65,8 +61,6 @@
 @property (readonly) int reboundsReceived;
 @property (readonly) NSString *creationDate;
 
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 - (void)getPlayerWithID:(NSString *)p;
 
 - (NSString *)playerID;

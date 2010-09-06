@@ -17,10 +17,7 @@
 @required
 - (void)didReceiveShot:(DwibbbleShot *)shot;
 - (void)didReceivePlayer:(DwibbblePlayer *)player;
-<<<<<<< HEAD
 - (void)didReceiveError:(NSError *)error;
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 @end
 
 @interface Dwibbble : NSObject <DwibbbleShotDelegate, DwibbblePlayerDelegate> {

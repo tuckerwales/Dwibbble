@@ -34,7 +34,6 @@
 
 @property (nonatomic, assign) id delegate;
 
-<<<<<<< HEAD
 @property (readonly) int shotID;
 @property (readonly) NSString *title;
 @property (readonly) NSString *url;
@@ -46,8 +45,6 @@
 @property (readonly) int reboundsCount;
 @property (readonly) NSString *creationDate;
 
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 - (void)getShotWithID:(int)shot;
 
 - (int)shotID;

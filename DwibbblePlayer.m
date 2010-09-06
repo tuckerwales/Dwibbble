@@ -12,7 +12,6 @@
 @implementation DwibbblePlayer
 
 @synthesize delegate;
-<<<<<<< HEAD
 @synthesize playerID;
 @synthesize url;
 @synthesize avatarURL;
@@ -32,9 +31,6 @@
 @synthesize creationDate;
 
 #pragma mark Player Initialization Methods
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
-
 - (void)getPlayerWithID:(NSString *)p {
 	playerID = p;
 	NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
@@ -42,8 +38,6 @@
 	[NSURLConnection connectionWithRequest:req delegate:self];
 }
 
-<<<<<<< HEAD
-=======
 #pragma mark Instance Variable Getters
 
 - (NSString *)playerID {
@@ -114,7 +108,6 @@
 	return creationDate;
 }
 
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 #pragma mark Connection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
@@ -139,13 +132,10 @@
 	[self setDetails];
 }
 
-<<<<<<< HEAD
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
 	[self.delegate receivedError:error];
 }
 
-=======
->>>>>>> ef4676631daa31a6fad007a21346d9189368b811
 - (void)setDetails {
 	url = [parsedJson valueForKey:@"url"];
 	avatarURL = [parsedJson valueForKey:@"avatar_url"];
