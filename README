@@ -1,6 +1,8 @@
 Dwibbble - 0.1
 Written by Joshua Lee Tucker for Stunnify.
 
+STILL IN DEVELOPMENT
+
 Clearing some things up...
 ==========================
 
@@ -19,7 +21,7 @@ You ask for all your data through your Dwibbble object using methods such as -ge
 
 There are 3 delegate protocol methods which you are required to implement in your Dwibbble delegate. These are didReceivePlayer:, didReceiveShot: and didReceiveError:. They all pass ready-to-use information to your delegate.
 
-You should should make Dwibbble aware that you are conform to the delegate protocol by adding <DwibbbleDelegate> to your .h file. I have done this in the included example.
+You should should make Dwibbble aware that you conform to the delegate protocol by adding <DwibbbleDelegate> to your .h file. I have done this in the included example.
 
 I have included an example for iOS using the 4.0 SDK which shows you how to implement Dwibbble in an application. My example shows you how to get a player's avatar using Dwibbble.
 
