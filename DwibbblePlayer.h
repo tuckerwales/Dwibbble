@@ -41,8 +41,8 @@
 
 @property (nonatomic, assign) id delegate;
 
-// Instance Variable Properties
-// Needed for getters and setters
+// Generate getters and setters
+
 @property (readonly) NSString *playerID;
 @property (readonly) NSString *url;
 @property (readonly) NSString *avatarURL;
@@ -62,24 +62,6 @@
 @property (readonly) NSString *creationDate;
 
 - (void)getPlayerWithID:(NSString *)p;
-
-- (NSString *)playerID;
-- (NSString *)url;
-- (NSString *)avatarURL;
-- (NSString *)location;
-- (NSString *)twitter;
-- (int)shots;
-- (NSString *)drafter;
-- (int)draftees;
-- (int)followers;
-- (int)following;
-- (int)commentsCount;
-- (int)commentsReceived;
-- (int)likesCount;
-- (int)likesReceived;
-- (int)reboundsCount;
-- (int)reboundsReceived;
-- (NSString *)creationDate;
 - (void)setDetails;
 
 @end

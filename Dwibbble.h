@@ -31,6 +31,7 @@
 	BOOL internetIsReachable;
 }
 
+@property (nonatomic, assign) id delegate;
 @property (readonly) BOOL internetIsReachable;
 
 - (void)getShotWithID:(int)shotID;
@@ -38,7 +39,5 @@
 
 #pragma mark Reachability Methods
 - (BOOL)isReachable;
-
-@property (nonatomic, assign) id delegate;
 
 @end

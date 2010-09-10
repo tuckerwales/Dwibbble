@@ -34,6 +34,8 @@
 
 @property (nonatomic, assign) id delegate;
 
+// Generate getters and setters
+
 @property (readonly) int shotID;
 @property (readonly) NSString *title;
 @property (readonly) NSString *url;
@@ -46,17 +48,6 @@
 @property (readonly) NSString *creationDate;
 
 - (void)getShotWithID:(int)shot;
-
-- (int)shotID;
-- (NSString *)title;
-- (NSString *)url;
-- (NSString *)imageURL;
-- (NSString *)teaserURL;
-- (int)viewsCount;
-- (int)likesCount;
-- (int)commentsCount;
-- (int)reboundsCount;
-- (NSString *)creationDate;
 - (void)setDetails;
 
 @end

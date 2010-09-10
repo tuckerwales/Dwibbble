@@ -31,48 +31,6 @@
 	[NSURLConnection connectionWithRequest:req delegate:self];
 }
 
-#pragma mark Instance Variable Getters
-
-- (int)shotID {
-	return shotID;
-}
-
-- (NSString *)title {
-	return title;
-}
-
-- (NSString *)url {
-	return url;
-}
-
-- (NSString *)imageURL {
-	return imageURL;
-}
-
-- (NSString *)teaserURL {
-	return teaserURL;
-}
-
-- (int)viewsCount {
-	return viewsCount;
-}
-
-- (int)likesCount {
-	return likesCount;
-}
-
-- (int)commentsCount {
-	return commentsCount;
-}
-
-- (int)reboundsCount {
-	return reboundsCount;
-}
-
-- (NSString *)creationDate {
-	return creationDate;
-}
-
 #pragma mark Connection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
