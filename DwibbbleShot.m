@@ -7,7 +7,6 @@
 //
 
 #import "DwibbbleShot.h"
-#import "JSON.h"
 
 @implementation DwibbbleShot
 
@@ -23,48 +22,47 @@
 @synthesize reboundsCount;
 @synthesize creationDate;
 
+#pragma mark DwibbbleShot Methods
+
 - (void)getShotWithID:(int)shot {
 	shotID = shot;
-	NSLog(@"We're here!");
-	NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/shots/%i", shot]];
-	NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
-	[NSURLConnection connectionWithRequest:req delegate:self];
-}
-
-#pragma mark Connection Delegate Methods
-
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
-	NSLog(@"Receiving data...");
-	NSString *string = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
-	NSLog(@"%@", string);
-	[string release];
-	if (connectionData == nil) {
-		connectionData = [[NSMutableData data] retain];
-	}
-	[connectionData appendData:data];
-}
-
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-	NSLog(@"Connection Finished!");
-	SBJsonParser *parser = [[SBJsonParser alloc] init];
-	NSString *responseString = [[NSString alloc] initWithData:connectionData encoding:NSUTF8StringEncoding];
-	[connectionData release];
-	parsedJson = [parser objectWithString:responseString];
-	[responseString release];
-	[parser release];
-	[self setDetails];
+	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/shots/%i", shot];
+	request = [[DwibbbleRequest alloc] init];
+	request.delegate = self;
+	[request requestWithURL:reqURL];
 }
 
 - (void)setDetails {
-	title = [parsedJson valueForKey:@"title"];
-	url = [parsedJson valueForKey:@"url"];
-	imageURL = [parsedJson valueForKey:@"image_url"];
-	teaserURL = [parsedJson valueForKey:@"image_teaser_url"];
-	viewsCount = (int)[parsedJson valueForKey:@"views_count"];
-	likesCount = (int)[parsedJson valueForKey:@"likes_count"];
-	commentsCount = (int)[parsedJson valueForKey:@"comments_count"];
-	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
+	title = [parsedData valueForKey:@"title"];
+	url = [parsedData valueForKey:@"url"];
+	imageURL = [parsedData valueForKey:@"image_url"];
+	teaserURL = [parsedData valueForKey:@"image_teaser_url"];
+	viewsCount = (int)[parsedData valueForKey:@"views_count"];
+	likesCount = (int)[parsedData valueForKey:@"likes_count"];
+	commentsCount = (int)[parsedData valueForKey:@"comments_count"];
+	reboundsCount = (int)[parsedData valueForKey:@"rebounds_count"];
 	NSLog(@"We just set all the shot details...");
+	[self.delegate receivedShot:self];
+}
+
+#pragma mark DwibbbleRequest Delegate Methods
+
+- (void)receivedDataFromConnection:(NSMutableData *)data {
+	NSLog(@"Houston, the request has returned to base!");
+	parser = [[DwibbbleParser alloc] init];
+	parser.delegate = self;
+	[parser parseWithData:data];
+}
+
+- (void)receivedErrorFromConnection:(NSString *)error {
+	[self.delegate receivedError:error];
+}
+
+#pragma mark DwibbbleParser Delegate Methods
+
+- (void)finishedParsing:(NSMutableArray *)parsedJSON {
+	parsedData = parsedJSON;
+	[self setDetails];
 }
 
 @end

@@ -30,61 +30,55 @@
 @synthesize reboundsReceived;
 @synthesize creationDate;
 
-#pragma mark Player Initialization Methods
+#pragma mark DwibbblePlayer Methods
+
 - (void)getPlayerWithID:(NSString *)p {
 	playerID = p;
-	NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.dribbble.com/players/%@", playerID]];
-	NSURLRequest *req = [NSURLRequest requestWithURL:requestURL];
-	[NSURLConnection connectionWithRequest:req delegate:self];
-}
-
-#pragma mark Connection Delegate Methods
-
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSMutableData *)data {
-	NSLog(@"Receiving data...");
-	NSString *string = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
-	NSLog(@"%@", string);
-	[string release];
-	if (connectionData == nil) {
-		connectionData = [[NSMutableData data] retain];
-	}
-	[connectionData appendData:data];
-}
-
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-	NSLog(@"Connection Finished!");
-	SBJsonParser *parser = [[SBJsonParser alloc] init];
-	NSString *responseString = [[NSString alloc] initWithData:connectionData encoding:NSUTF8StringEncoding];
-	[connectionData release];
-	parsedJson = [parser objectWithString:responseString];
-	[responseString release];
-	[parser release];
-	[self setDetails];
-}
-
-- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	[self.delegate receivedError:error];
+	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/players/%@", p];
+	request = [[DwibbbleRequest alloc] init];
+	request.delegate = self;
+	[request requestWithURL:reqURL];
 }
 
 - (void)setDetails {
-	url = [parsedJson valueForKey:@"url"];
-	avatarURL = [parsedJson valueForKey:@"avatar_url"];
-	location = [parsedJson valueForKey:@"location"];
-	twitter = [parsedJson valueForKey:@"twitter_screen_name"];
-	drafter = [parsedJson valueForKey:@"drafted_by_player_id"];
-	shots = (int)[parsedJson valueForKey:@"shots_count"];
-	draftees = (int)[parsedJson valueForKey:@"draftees_count"];
-	followers = (int)[parsedJson valueForKey:@"followers_count"];
-	following = (int)[parsedJson valueForKey:@"following_count"];
-	commentsCount = (int)[parsedJson valueForKey:@"comments_count"];
-	commentsReceived = (int)[parsedJson valueForKey:@"comments_received_count"];
-	likesCount = (int)[parsedJson valueForKey:@"likes_count"];
-	likesReceived = (int)[parsedJson valueForKey:@"likes_received_count"];
-	reboundsCount = (int)[parsedJson valueForKey:@"rebounds_count"];
-	reboundsReceived = (int)[parsedJson valueForKey:@"rebounds_received_count"];
-	creationDate = [parsedJson valueForKey:@"created_at"];
+	url = [parsedData valueForKey:@"url"];
+	avatarURL = [parsedData valueForKey:@"avatar_url"];
+	location = [parsedData valueForKey:@"location"];
+	twitter = [parsedData valueForKey:@"twitter_screen_name"];
+	drafter = [parsedData valueForKey:@"drafted_by_player_id"];
+	shots = (int)[parsedData valueForKey:@"shots_count"];
+	draftees = (int)[parsedData valueForKey:@"draftees_count"];
+	followers = (int)[parsedData valueForKey:@"followers_count"];
+	following = (int)[parsedData valueForKey:@"following_count"];
+	commentsCount = (int)[parsedData valueForKey:@"comments_count"];
+	commentsReceived = (int)[parsedData valueForKey:@"comments_received_count"];
+	likesCount = (int)[parsedData valueForKey:@"likes_count"];
+	likesReceived = (int)[parsedData valueForKey:@"likes_received_count"];
+	reboundsCount = (int)[parsedData valueForKey:@"rebounds_count"];
+	reboundsReceived = (int)[parsedData valueForKey:@"rebounds_received_count"];
+	creationDate = [parsedData valueForKey:@"created_at"];
 	NSLog(@"We just set all the player details...");
 	[self.delegate receivedPlayer:self];
+}
+
+#pragma mark DwibbbleRequest Delegate Methods
+
+- (void)receivedDataFromConnection:(NSMutableData *)data {
+	NSLog(@"Houston, the request has returned to base!");
+	parser = [[DwibbbleParser alloc] init];
+	parser.delegate = self;
+	[parser parseWithData:data];
+}
+
+- (void)receivedErrorFromConnection:(NSString *)error {
+	[self.delegate receivedError:error];
+}
+
+#pragma mark DwibbbleParser Delegate Methods
+
+- (void)finishedParsing:(NSMutableArray *)parsedJSON {
+	parsedData = parsedJSON;
+	[self setDetails];
 }
 
 @end

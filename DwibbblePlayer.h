@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DwibbbleRequest.h"
+#import "DwibbbleParser.h"
 
 @class DwibbblePlayer;
 
 @protocol DwibbblePlayerDelegate
 @required
 - (void)receivedPlayer:(DwibbblePlayer *)player;
-- (void)receivedError:(NSError *)error;
+- (void)receivedError:(NSString *)error;
 @end
 
 @interface DwibbblePlayer : NSObject {
@@ -35,8 +37,9 @@
 	int		reboundsCount;
 	int		reboundsReceived;
 	NSString *creationDate;
-	NSMutableData *connectionData;
-	NSArray *parsedJson;
+	NSArray *parsedData;
+	DwibbbleRequest *request;
+	DwibbbleParser *parser;
 }
 
 @property (nonatomic, assign) id delegate;

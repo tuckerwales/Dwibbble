@@ -25,20 +25,32 @@
 	[userField resignFirstResponder];
 	dw = [[Dwibbble alloc] init];
 	dw.delegate = self;
-	[dw getPlayerWithID:[NSString stringWithFormat:@"%@", userField.text]];
+	[dw getPlayerWithID:userField.text];
 }
 
 - (void)didReceivePlayer:(DwibbblePlayer *)player {
 	NSLog(@"Well, we got to here...");
+	NSLog(@"Avatar URL: %@", [player avatarURL]);
 	NSURL *imageURL = [NSURL URLWithString:[player avatarURL]];
 	NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
 	UIImage *image = [[UIImage alloc] initWithData:imageData];
 	playerImage.image = image;
-	[dw release]; // You should always release your Dwibbble object!!
+	[dw release];
+	[imageURL release];
+	[image release];
+	[imageData release];
 }
 
 - (void)didReceiveShot:(DwibbbleShot *)shot {
-	
+	NSLog(@"Well, we got to here...");
+	NSURL *imageURL = [NSURL URLWithString:[shot imageURL]];
+	NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
+	UIImage *image = [[UIImage alloc] initWithData:imageData];
+	playerImage.image = image;
+	[dw release];
+	[imageURL release];
+	[image release];
+	[imageData release];
 }
 
 - (void)didReceiveError:(NSString *)error {

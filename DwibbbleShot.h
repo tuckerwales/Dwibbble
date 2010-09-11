@@ -7,12 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSON.h"
+#import "DwibbbleRequest.h"
+#import "DwibbbleParser.h"
 
 @class DwibbbleShot;
 
 @protocol DwibbbleShotDelegate
 @required
 - (void)receivedShot:(DwibbbleShot *)shot;
+- (void)receivedError:(NSString *)error;
 @end
 
 
@@ -28,8 +32,9 @@
 	int		commentsCount;
 	int		reboundsCount;
 	NSString *creationDate;
-	NSMutableData *connectionData;
-	NSArray *parsedJson;
+	NSArray *parsedData;
+	DwibbbleRequest *request;
+	DwibbbleParser *parser;
 }
 
 @property (nonatomic, assign) id delegate;
