@@ -1,0 +1,695 @@
+TiOS (Dwibbble)
+v7
+r0
+t305925507.260037
+cCheck dependencies
+cProcessInfoPlistFile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/Info.plist" iOS__Dwibbble_-Info.plist
+cCompileXIB "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib"
+cCompileXIB "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib"
+cProcessPCH /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch.gch iOS__Dwibbble__Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/main.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_AppDelegate.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_ViewController.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSString+SBJSON.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonBase.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonParser.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonWriter.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Dwibbble.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleCluster.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbblePlayer.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleRequest.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleShot.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Reachability.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleParser.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)" normal i386
+cGenerateDSYMFile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)"
+cTouch "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C29D1BD0000000000000132
+t1277809085
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004BFDFD720000000000000AB3
+t1274936690
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004BFDFDA40000000000001AE5
+t1274936740
+s6885
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004BFDFDAA000000000005E690
+t1274936746
+s386704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/arpa/inet.h
+c000000004A4180D20000000000001533
+t1245806802
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/ifaddrs.h
+c000000004A4180E20000000000000782
+t1245806818
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet6/in6.h
+c000000004A73D64B0000000000004F5B
+t1249105483
+s20315
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/Dwibbble.h
+c000000004C8AB49E00000000000003B1
+t1284158622
+s945
+i<Foundation/Foundation.h>
+i"DwibbbleShot.h"
+i"DwibbblePlayer.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/DwibbbleCluster.h
+c000000004C84507E00000000000000F5
+t1283739774
+s245
+i<Foundation/Foundation.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/DwibbbleParser.h
+c000000004C8BC58B00000000000001ED
+t1284228491
+s493
+i<Foundation/Foundation.h>
+i"JSON.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/DwibbblePlayer.h
+c000000004C8BCCAB0000000000000681
+t1284230315
+s1665
+i<Foundation/Foundation.h>
+i"DwibbbleRequest.h"
+i"DwibbbleParser.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/DwibbbleRequest.h
+c000000004C8BD10900000000000001F7
+t1284231433
+s503
+i<Foundation/Foundation.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/DwibbbleShot.h
+c000000004C8BCCB200000000000004DA
+t1284230322
+s1242
+i<Foundation/Foundation.h>
+i"JSON.h"
+i"DwibbbleRequest.h"
+i"DwibbbleParser.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/JSON/NSObject+SBJSON.h
+c000000004C535269000000000000085F
+t1280529001
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/JSON/NSString+SBJSON.h
+c000000004C53526900000000000007F0
+t1280529001
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/JSON/SBJsonBase.h
+c000000004C5352690000000000000B82
+t1280529001
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/JSON/SBJsonParser.h
+c000000004C5352690000000000000C8F
+t1280529001
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/JSON/SBJsonWriter.h
+c000000004C53526900000000000011D9
+t1280529001
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/Reachability.h
+c000000004C34EF790000000000000F1B
+t1278537593
+s3867
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.h
+c000000004C8AB49E00000000000003B1
+t1284158622
+s945
+i<Foundation/Foundation.h>
+i"DwibbbleShot.h"
+i"DwibbblePlayer.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m
+c000000004C8BCD50000000000000062B
+t1284230480
+s1579
+i"Dwibbble.h"
+i"Reachability.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m
+c000000004C84507E0000000000000133
+t1283739774
+s307
+i"DwibbbleCluster.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m
+c000000004C8BCD530000000000000224
+t1284230483
+s548
+i"DwibbbleParser.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m
+c000000004C8BCD4B00000000000009E4
+t1284230475
+s2532
+i"DwibbblePlayer.h"
+i"JSON.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m
+c000000004C8BC3850000000000000435
+t1284227973
+s1077
+i"DwibbbleRequest.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m
+c000000004C8BCBCF00000000000006FC
+t1284230095
+s1788
+i"DwibbbleShot.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/JSON.h
+c000000004C5354180000000000000BE8
+t1280529432
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m
+c000000004C535269000000000000077D
+t1280529001
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m
+c000000004C535269000000000000075D
+t1280529001
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m
+c000000004C5352690000000000000AC1
+t1280529001
+s2753
+i"SBJsonBase.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m
+c000000004C5352690000000000003B7A
+t1280529001
+s15226
+i"SBJsonParser.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m
+c000000004C53526900000000000020D8
+t1280529001
+s8408
+i"SBJsonWriter.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m
+c000000004C34EF79000000000000239B
+t1278537593
+s9115
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.h
+c000000004C84507E0000000000000208
+t1283739774
+s520
+i<UIKit/UIKit.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m
+c000000004C84507E0000000000000AAD
+t1283739774
+s2733
+i"iOS__Dwibbble_AppDelegate.h"
+i"iOS__Dwibbble_ViewController.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.h
+c000000004C84507E0000000000000272
+t1283739774
+s626
+i<UIKit/UIKit.h>
+i"Dwibbble.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m
+c000000004C8BD5D9000000000000078C
+t1284232665
+s1932
+i"iOS__Dwibbble_ViewController.h"
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib
+c000000004C84507E0000000000004E7D
+t1283739774
+s20093
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app
+t1284232707
+s238
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM
+t1284232707
+s102
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/Info.plist
+t1284232349
+s610
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/MainWindow.nib
+t1284232350
+s1137
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/PkgInfo
+t1284232349
+s8
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)
+t1284232707
+s92400
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS__Dwibbble_ViewController.nib
+t1284232350
+s2047
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Dwibbble.o
+t1284232351
+s16940
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleCluster.o
+t1284232351
+s7328
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleParser.o
+t1284232351
+s10536
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbblePlayer.o
+t1284232351
+s25748
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleRequest.o
+t1284232351
+s12300
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleShot.o
+t1284232351
+s20064
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSObject+SBJSON.o
+t1284232351
+s7424
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSString+SBJSON.o
+t1284232351
+s7316
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Reachability.o
+t1284232351
+s23084
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonBase.o
+t1284232351
+s13244
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonParser.o
+t1284232351
+s36944
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonWriter.o
+t1284232351
+s26744
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS (Dwibbble).LinkFileList
+c000000004C8BD49D000000000000099D
+t1284232349
+s2461
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_AppDelegate.o
+t1284232350
+s50052
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_ViewController.o
+t1284232707
+s51284
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/main.o
+t1284232350
+s6340
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib
+c000000004C84507E0000000000005E80
+t1283739774
+s24192
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble__Prefix.pch
+c000000004C84507E00000000000000C5
+t1283739774
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m
+c000000004C84507E000000000000016F
+t1283739774
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch.gch
+t1284229014
+s15232016
+
+NiOS__Dwibbble_-Info.plist
+c000000004C84507E0000000000000371
+t1283739774
+s881
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305925506#305925506#0(0"0(0#1#0"8623980672#0"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Dwibbble.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.242106
+e305925151.442735
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Dwibbble.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m305925151#305925151#0(0"0(0#0#70"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m8612528640#2272"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Dwibbble.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Dwibbble.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleCluster.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.278330
+e305925151.364697
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleCluster.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m305925151#305925151#0(0"0(0#0#77"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m8611937472#2286"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleCluster.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleCluster.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleParser.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.568423
+e305925151.634267
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleParser.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m305925151#305925151#0(0"0(0#0#76"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m8608882720#2284"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleParser.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleParser.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbblePlayer.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.364907
+e305925151.466757
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbblePlayer.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m305925151#305925151#0(0"0(0#0#76"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m8611179424#2284"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbblePlayer.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbblePlayer.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleRequest.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.442856
+e305925151.534023
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleRequest.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m305925151#305925151#0(0"0(0#0#77"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m8594885856#2286"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleRequest.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleRequest.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleShot.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.466874
+e305925151.568305
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleShot.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m305925151#305925151#0(0"0(0#0#74"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m8610805664#2280"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../DwibbbleShot.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/DwibbbleShot.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925150.911786
+e305925151.021152
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m305925150#305925151#0(0"0(0#0#82"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m8608952384#2291"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSObject+SBJSON.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSObject+SBJSON.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSString+SBJSON.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925150.994409
+e305925151.072820
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m305925150#305925151#0(0"0(0#0#82"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m8592881440#2291"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/NSString+SBJSON.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/NSString+SBJSON.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Reachability.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.534142
+e305925151.807189
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Reachability.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m305925151#305925151#0(0"0(0#0#74"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m8609531424#2280"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../Reachability.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/Reachability.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonBase.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.021268
+e305925151.107282
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonBase.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m305925151#305925151#0(0"0(0#0#77"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m8612494528#2281"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonBase.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonBase.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonParser.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.072942
+e305925151.278218
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonParser.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m305925151#305925151#0(0"0(0#0#79"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m8611707104#2285"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonParser.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonWriter.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925151.107397
+e305925151.241981
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonWriter.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m305925151#305925151#0(0"0(0#0#79"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m8611213056#2285"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/../JSON/SBJsonWriter.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_AppDelegate.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925150.649248
+e305925150.911656
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_AppDelegate.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m305925150#305925150#0(0"0(0#0#92"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m8608270592#2311"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_AppDelegate.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_AppDelegate.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_ViewController.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925506.991222
+e305925507.138328
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_ViewController.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m305925506#305925507#0(0"0(0#0#95"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m8619657696#2317"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/Classes/iOS__Dwibbble_ViewController.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS__Dwibbble_ViewController.o"0#
+
+CCompileC "build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/main.o" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s305925150.648023
+e305925150.850111
+r1
+xCompileC
+xbuild/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/main.o
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m305925150#305925150#0(0"0(0#0#63"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m8611641344#2261"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-generated-files.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-own-target-headers.hmap" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-all-target-headers.hmap" -iquote "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/iOS (Dwibbble)-project-headers.hmap" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/include" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources/i386" "-I/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/DerivedSources" -include /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/main.m" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib"
+s305925149.799558
+e305925150.647823
+r1
+xCompileXIB
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305925149#305925150#0(0"0(0#0#71"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib8613602944#637"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/MainWindow.nib" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib"
+s305925149.802202
+e305925150.615920
+r1
+xCompileXIB
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib
+lSLF07#2@43"CompileXIB iOS__Dwibbble_ViewController.xib305925149#305925150#0(0"0(0#0#89"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib8609594848#673"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS__Dwibbble_ViewController.nib" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_ViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM" "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)"
+s305925507.188139
+e305925507.247279
+r1
+xGenerateDSYMFile
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)
+lSLF07#2@134"GenerateDSYMFile "build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM" "build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)"305925507#305925507#0(0"0(0#0#118"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)8623055008#464"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)" -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app.dSYM"0#
+
+CLd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)" normal i386
+s305925507.138426
+e305925507.188014
+r1
+xLd
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)
+xnormal
+xi386
+lSLF07#2@123"Link /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)305925507#305925507#0(0"0(0#0#0"8623843040#1066"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" "-F/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator" -filelist "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/iOS (Dwibbble).build/Debug-iphonesimulator/iOS (Dwibbble).build/Objects-normal/i386/iOS (Dwibbble).LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/iOS (Dwibbble)"0#
+
+CProcessInfoPlistFile "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/Info.plist" iOS__Dwibbble_-Info.plist
+s305925149.786060
+e305925149.799449
+r1
+xProcessInfoPlistFile
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/Info.plist
+xiOS__Dwibbble_-Info.plist
+lSLF07#2@33"Process iOS__Dwibbble_-Info.plist305925149#305925149#0(0"0(0#0#82"/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/iOS__Dwibbble_-Info.plist8607672608#560"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iOS__Dwibbble_-Info.plist -genpkginfo "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app/Info.plist"0#
+
+CProcessPCH /var/folders/MS/MSHbo+HmHC8zATbdKxdnaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iOS__Dwibbble__Prefix-fjpvgjxrcnwvhxcmodiwosbspzim/iOS__Dwibbble__Prefix.pch.gch iOS__Dwibbble__Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app"
+s305925507.247371
+e305925507.259229
+r1
+xTouch
+x/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app
+lSLF07#2@109"Touch /Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app305925507#305925507#0(0"0(0#0#0"8621448160#325"    cd "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/DarkMalloc/Desktop/Github/Dwibbble/iOS (Dwibbble)/build/Debug-iphonesimulator/iOS (Dwibbble).app"0#
+
