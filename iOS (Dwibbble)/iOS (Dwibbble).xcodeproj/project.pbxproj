@@ -20,6 +20,7 @@
 		5611803F123BF8BB00C640BA /* DwibbbleShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 56118039123BF8BB00C640BA /* DwibbbleShot.m */; };
 		56118040123BF8BB00C640BA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611803A123BF8BB00C640BA /* Reachability.m */; };
 		5611811F123BFC1F00C640BA /* DwibbbleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611811E123BFC1F00C640BA /* DwibbbleParser.m */; };
+		56C78E53123C1A1800F51017 /* DwibbbleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C78E52123C1A1800F51017 /* DwibbbleList.m */; };
 		56CBA89F1234F68A008C5512 /* iOS__Dwibbble_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA89C1234F68A008C5512 /* iOS__Dwibbble_AppDelegate.m */; };
 		56CBA8A01234F68A008C5512 /* iOS__Dwibbble_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA89E1234F68A008C5512 /* iOS__Dwibbble_ViewController.m */; };
 		56CBA8DE1234F738008C5512 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBA8D51234F738008C5512 /* NSObject+SBJSON.m */; };
@@ -53,6 +54,8 @@
 		56118043123BF8CB00C640BA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = SOURCE_ROOT; };
 		5611811D123BFC1F00C640BA /* DwibbbleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwibbbleParser.h; path = ../DwibbbleParser.h; sourceTree = SOURCE_ROOT; };
 		5611811E123BFC1F00C640BA /* DwibbbleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwibbbleParser.m; path = ../DwibbbleParser.m; sourceTree = SOURCE_ROOT; };
+		56C78E51123C1A1800F51017 /* DwibbbleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwibbbleList.h; path = ../DwibbbleList.h; sourceTree = SOURCE_ROOT; };
+		56C78E52123C1A1800F51017 /* DwibbbleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwibbbleList.m; path = ../DwibbbleList.m; sourceTree = SOURCE_ROOT; };
 		56CBA89B1234F68A008C5512 /* iOS__Dwibbble_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS__Dwibbble_AppDelegate.h; sourceTree = "<group>"; };
 		56CBA89C1234F68A008C5512 /* iOS__Dwibbble_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS__Dwibbble_AppDelegate.m; sourceTree = "<group>"; };
 		56CBA89D1234F68A008C5512 /* iOS__Dwibbble_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS__Dwibbble_ViewController.h; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 				56118031123BF8BB00C640BA /* Dwibbble.m */,
 				56118032123BF8BB00C640BA /* DwibbbleCluster.h */,
 				56118033123BF8BB00C640BA /* DwibbbleCluster.m */,
+				56C78E51123C1A1800F51017 /* DwibbbleList.h */,
+				56C78E52123C1A1800F51017 /* DwibbbleList.m */,
 				56118034123BF8BB00C640BA /* DwibbblePlayer.h */,
 				56118035123BF8BB00C640BA /* DwibbblePlayer.m */,
 				56118038123BF8BB00C640BA /* DwibbbleShot.h */,
@@ -217,7 +222,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS (Dwibbble)" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +271,7 @@
 				5611803F123BF8BB00C640BA /* DwibbbleShot.m in Sources */,
 				56118040123BF8BB00C640BA /* Reachability.m in Sources */,
 				5611811F123BFC1F00C640BA /* DwibbbleParser.m in Sources */,
+				56C78E53123C1A1800F51017 /* DwibbbleList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +314,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};

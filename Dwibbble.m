@@ -36,17 +36,21 @@
 
 - (void)receivedShot:(DwibbbleShot *)receivedShot {
 	NSLog(@"Houston, we received a shot!");
-	[self.delegate didReceiveShot:receivedShot];
+	shot = receivedShot;
+	[receivedShot release];
+	[self.delegate didReceiveShot:shot];
 }
 
 - (void)receivedPlayer:(DwibbblePlayer *)receivedPlayer {
 	NSLog(@"Houston, we received a player!");
-	[self.delegate didReceivePlayer:receivedPlayer];
+	player = receivedPlayer;
+	[receivedPlayer release];
+	[self.delegate didReceivePlayer:player];
 }
 
 - (void)receivedError:(NSString *)error {
 	NSLog(@"Marshall, we have an error!");
-	[self.delegate didReceiveError:[error description]];
+	[self.delegate didReceiveError:error];
 }
 
 #pragma mark Reachability Methods

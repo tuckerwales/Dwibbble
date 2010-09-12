@@ -49,18 +49,21 @@
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {
 	NSLog(@"Houston, the request has returned to base!");
+	[request release];
 	parser = [[DwibbbleParser alloc] init];
 	parser.delegate = self;
 	[parser parseWithData:data];
 }
 
 - (void)receivedErrorFromConnection:(NSString *)error {
+	[request release];
 	[self.delegate receivedError:error];
 }
 
 #pragma mark DwibbbleParser Delegate Methods
 
 - (void)finishedParsing:(NSMutableArray *)parsedJSON {
+	[parser release];
 	parsedData = parsedJSON;
 	[self setDetails];
 }

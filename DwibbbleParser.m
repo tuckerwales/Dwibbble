@@ -17,6 +17,7 @@
 	parser = [[SBJsonParser alloc] init];
 	NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 	parsed = [parser objectWithString:dataString];
+	[data release];
 	[dataString release];
 	[parser release];
 	[self.delegate finishedParsing:parsed];

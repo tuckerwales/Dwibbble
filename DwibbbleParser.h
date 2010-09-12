@@ -10,13 +10,13 @@
 #import "JSON.h"
 
 @protocol DwibbbleParserDelegate
-- (void)finishedParsing:(NSMutableArray *)parsedJSON;
+- (void)finishedParsing:(NSMutableDictionary *)parsedJSON;
 @end
 
 
 @interface DwibbbleParser : NSObject {
 	id delegate;
-	NSMutableArray *parsed;
+	NSMutableDictionary *parsed;
 	SBJsonParser *parser;
 }
 

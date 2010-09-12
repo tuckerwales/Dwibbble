@@ -7,6 +7,8 @@
 //
 
 #import "iOS__Dwibbble_ViewController.h"
+#import "DwibbbleList.h"
+
 
 @implementation iOS__Dwibbble_ViewController
 
@@ -19,9 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-*/
+ */
+
 
 - (IBAction)getAvatar {
+	getButton.enabled = NO;
 	[userField resignFirstResponder];
 	dw = [[Dwibbble alloc] init];
 	dw.delegate = self;
@@ -29,16 +33,22 @@
 }
 
 - (void)didReceivePlayer:(DwibbblePlayer *)player {
-	NSLog(@"Well, we got to here...");
+	getButton.enabled = YES;
 	NSURL *imageURL = [NSURL URLWithString:[player avatarURL]];
 	NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
 	UIImage *image = [[UIImage alloc] initWithData:imageData];
 	playerImage.image = image;
+	[image release];
 	[dw release];
 }
 
 - (void)didReceiveShot:(DwibbbleShot *)shot {
-	
+	NSURL *imageURL = [NSURL URLWithString:[shot imageURL]];
+	NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
+	UIImage *image = [[UIImage alloc] initWithData:imageData];
+	playerImage.image = image;
+	[image release];
+	[dw release];
 }
 
 - (void)didReceiveError:(NSString *)error {
