@@ -7,37 +7,38 @@
  *
  */
 
-#define VERSION [NSString stringWithFormat:@"0.1a"];
+#define VERSION [NSString stringWithFormat:@"0.4"];
 
 #import <Foundation/Foundation.h>
 #import "DwibbbleShot.h"
 #import "DwibbblePlayer.h"
-
-@class Reachability;
+#import "DwibbbleList.h"
 
 @protocol DwibbbleDelegate
 @required
 - (void)didReceiveShot:(DwibbbleShot *)shot;
 - (void)didReceivePlayer:(DwibbblePlayer *)player;
+- (void)didReceiveList:(NSMutableArray *)list;
 - (void)didReceiveError:(NSString *)error;
 @end
 
-@interface Dwibbble : NSObject <DwibbbleShotDelegate, DwibbblePlayerDelegate> {
+@interface Dwibbble : NSObject <DwibbbleShotDelegate, DwibbblePlayerDelegate, DwibbbleListDelegate> {
 	id delegate;
 	DwibbbleShot *shot;
 	DwibbblePlayer *player;
-	Reachability *internetReachable;
-	Reachability *hostReachable;
-	BOOL internetIsReachable;
+	DwibbbleList *shotList;
 }
 
 @property (nonatomic, assign) id delegate;
-@property (readonly) BOOL internetIsReachable;
+
+// Class Methods
+
++ (NSString *)version;
+
+// Dwibbble Methods
 
 - (void)getShotWithID:(int)shotID;
 - (void)getPlayerWithID:(NSString *)playerID;
-
-#pragma mark Reachability Methods
-- (BOOL)isReachable;
+- (void)getListWithType:(NSString *)type;
 
 @end

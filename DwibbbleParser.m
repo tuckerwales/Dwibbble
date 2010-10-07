@@ -14,13 +14,9 @@
 @synthesize delegate;
 
 - (void)parseWithData:(NSMutableData *)data {
-	parser = [[SBJsonParser alloc] init];
-	NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-	parsed = [parser objectWithString:dataString];
-	[data release];
-	[dataString release];
-	[parser release];
-	[self.delegate finishedParsing:parsed];
+	NSError *error = nil;
+	NSDictionary *dictionary = [[CJSONDeserializer deserializer] deserializeAsDictionary:data error:&error];
+	[self.delegate finishedParsing:dictionary];
 }
 
 @end

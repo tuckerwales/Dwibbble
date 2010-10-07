@@ -11,14 +11,17 @@
 
 @implementation DwibbbleList
 
-- (void)start {
-	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/shots/popular"];
+@synthesize delegate;
+
+- (void)getListWithType:(NSString *)type {
+	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/shots/%@", type];
 	request = [[DwibbbleRequest alloc] init];
 	request.delegate = self;
 	[request requestWithURL:reqURL];
 }
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {
+	NSLog(@"received!");
 	parser = [[DwibbbleParser alloc] init];
 	parser.delegate = self;
 	[parser parseWithData:data];
@@ -30,10 +33,15 @@
 
 #pragma mark DwibbbleParser Delegate Methods
 
-- (void)finishedParsing:(NSMutableDictionary *)parsedJSON {
-	NSLog(@"Class: %@", [parsedJSON class]);
-	NSLog(@"Object: %@", [parsedJSON objectForKey:@"total"]);
-	NSLog(@"Shots: %@", [parsedJSON objectForKey:@"shots"]);
+- (void)finishedParsing:(NSDictionary *)parsedJSON {
+	cluster = [[NSMutableArray alloc] init];
+	int count;
+	for (count = 0; count < [[parsedJSON valueForKey:@"shots"] count]; count++) {
+		DwibbbleShot *shot = [[DwibbbleShot alloc] init];
+		[shot setDetailsWithData:[[parsedJSON objectForKey:@"shots"] objectAtIndex:count]];
+		[cluster addObject:shot];
+	}
+	[self.delegate receivedList:cluster];
 }
 
 @end

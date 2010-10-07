@@ -7,7 +7,6 @@
 //
 
 #import "DwibbblePlayer.h"
-#import "JSON.h"
 
 @implementation DwibbblePlayer
 
@@ -57,14 +56,12 @@
 	reboundsCount = (int)[parsedData valueForKey:@"rebounds_count"];
 	reboundsReceived = (int)[parsedData valueForKey:@"rebounds_received_count"];
 	creationDate = [parsedData valueForKey:@"created_at"];
-	NSLog(@"We just set all the player details...");
 	[self.delegate receivedPlayer:self];
 }
 
 #pragma mark DwibbbleRequest Delegate Methods
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {
-	NSLog(@"Houston, the request has returned to base!");
 	[request release];
 	parser = [[DwibbbleParser alloc] init];
 	parser.delegate = self;

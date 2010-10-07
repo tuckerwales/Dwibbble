@@ -7,17 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JSON.h"
+#import "CJSONDeserializer.h"
 
 @protocol DwibbbleParserDelegate
-- (void)finishedParsing:(NSMutableDictionary *)parsedJSON;
+- (void)finishedParsing:(NSDictionary *)parsedJSON;
 @end
 
 
 @interface DwibbbleParser : NSObject {
 	id delegate;
-	NSMutableDictionary *parsed;
-	SBJsonParser *parser;
+	NSDictionary *parsed;
 }
 
 @property (nonatomic, assign) id delegate;

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JSON.h"
 #import "DwibbbleRequest.h"
 #import "DwibbbleParser.h"
 
@@ -54,5 +53,6 @@
 
 - (void)getShotWithID:(int)shot;
 - (void)setDetails;
+- (void)setDetailsWithData:(id)data;
 
 @end

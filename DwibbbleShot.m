@@ -45,6 +45,19 @@
 	[self.delegate receivedShot:self];
 }
 
+- (void)setDetailsWithData:(id)data {
+	title = [data valueForKey:@"title"];
+	url = [data valueForKey:@"url"];
+	imageURL = [data valueForKey:@"image_url"];
+	teaserURL = [data valueForKey:@"image_teaser_url"];
+	viewsCount = (int)[data valueForKey:@"views_count"];
+	likesCount = (int)[data valueForKey:@"likes_count"];
+	commentsCount = (int)[data valueForKey:@"comments_count"];
+	reboundsCount = (int)[data valueForKey:@"rebounds_count"];
+	NSLog(@"We just set all the shot details...");
+	[self.delegate receivedShot:self];
+}
+
 #pragma mark DwibbbleRequest Delegate Methods
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {

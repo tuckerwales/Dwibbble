@@ -9,7 +9,6 @@
 #import "iOS__Dwibbble_ViewController.h"
 #import "DwibbbleList.h"
 
-
 @implementation iOS__Dwibbble_ViewController
 
 @synthesize playerImage;
@@ -27,9 +26,15 @@
 - (IBAction)getAvatar {
 	getButton.enabled = NO;
 	[userField resignFirstResponder];
+	
 	dw = [[Dwibbble alloc] init];
 	dw.delegate = self;
 	[dw getPlayerWithID:[NSString stringWithFormat:@"%@", userField.text]];
+	
+}
+
+- (void)didReceiveList:(NSMutableArray *)list {
+	// A for loop works well here :)
 }
 
 - (void)didReceivePlayer:(DwibbblePlayer *)player {
@@ -39,6 +44,7 @@
 	UIImage *image = [[UIImage alloc] initWithData:imageData];
 	playerImage.image = image;
 	[image release];
+	[player release];
 	[dw release];
 }
 
@@ -48,6 +54,7 @@
 	UIImage *image = [[UIImage alloc] initWithData:imageData];
 	playerImage.image = image;
 	[image release];
+	[shot release];
 	[dw release];
 }
 

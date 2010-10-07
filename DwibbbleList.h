@@ -10,10 +10,24 @@
 #import "DwibbbleRequest.h"
 #import "DwibbbleParser.h"
 
+// Shots
+#import "DwibbbleShot.h"
+
+@protocol DwibbbleListDelegate
+@required
+- (void)receivedList:(NSMutableArray *)list;
+@end
+
+
 @interface DwibbbleList : NSObject {
-	NSMutableDictionary *parsedData;
+	id delegate;
 	DwibbbleRequest *request;
 	DwibbbleParser *parser;
+	NSMutableArray *cluster;
 }
+
+@property (nonatomic, assign) id delegate;
+
+- (void)getListWithType:(NSString *)type;
 
 @end
