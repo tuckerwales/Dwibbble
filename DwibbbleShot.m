@@ -33,10 +33,10 @@
 }
 
 - (void)setDetails {
-	title = [parsedData valueForKey:@"title"];
-	url = [parsedData valueForKey:@"url"];
-	imageURL = [parsedData valueForKey:@"image_url"];
-	teaserURL = [parsedData valueForKey:@"image_teaser_url"];
+	title = [[data valueForKey:@"title"] retain];
+	url = [[data valueForKey:@"url"] retain];
+	imageURL = [[data valueForKey:@"image_url"] retain];
+	teaserURL = [[data valueForKey:@"image_teaser_url"] retain];
 	viewsCount = (int)[parsedData valueForKey:@"views_count"];
 	likesCount = (int)[parsedData valueForKey:@"likes_count"];
 	commentsCount = (int)[parsedData valueForKey:@"comments_count"];
@@ -46,10 +46,10 @@
 }
 
 - (void)setDetailsWithData:(id)data {
-	title = [data valueForKey:@"title"];
-	url = [data valueForKey:@"url"];
-	imageURL = [data valueForKey:@"image_url"];
-	teaserURL = [data valueForKey:@"image_teaser_url"];
+	title = [[data valueForKey:@"title"] retain];
+	url = [[data valueForKey:@"url"] retain];
+	imageURL = [[data valueForKey:@"image_url"] retain];
+	teaserURL = [[data valueForKey:@"image_teaser_url"] retain];
 	viewsCount = (int)[data valueForKey:@"views_count"];
 	likesCount = (int)[data valueForKey:@"likes_count"];
 	commentsCount = (int)[data valueForKey:@"comments_count"];
