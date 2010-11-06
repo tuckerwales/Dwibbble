@@ -21,16 +21,18 @@
 
 @interface DwibbbleShot : NSObject {
 	id		delegate;
-	int		shotID;
-	NSString *title;
+	NSString *shotID;
+	NSString *shotTitle;
 	NSString *url;
 	NSString *imageURL;
 	NSString *teaserURL;
-	int		viewsCount;
-	int		likesCount;
-	int		commentsCount;
-	int		reboundsCount;
+	NSString *username;
+	NSString *viewsCount;
+	NSString *likesCount;
+	NSString *commentsCount;
+	NSString *reboundsCount;
 	NSString *creationDate;
+	NSString *playerInfo;
 	NSArray *parsedData;
 	DwibbbleRequest *request;
 	DwibbbleParser *parser;
@@ -40,16 +42,18 @@
 
 // Generate getters and setters
 
-@property (readonly) int shotID;
-@property (readonly) NSString *title;
+@property (readonly) NSString *shotID;
+@property (readonly) NSString *shotTitle;
 @property (readonly) NSString *url;
 @property (readonly) NSString *imageURL;
 @property (readonly) NSString *teaserURL;
-@property (readonly) int viewsCount;
-@property (readonly) int likesCount;
-@property (readonly) int commentsCount;
-@property (readonly) int reboundsCount;
+@property (readonly) NSString *username;
+@property (readonly) NSString *viewsCount;
+@property (readonly) NSString *likesCount;
+@property (readonly) NSString *commentsCount;
+@property (readonly) NSString *reboundsCount;
 @property (readonly) NSString *creationDate;
+@property (readonly) NSString *playerInfo;
 
 - (void)getShotWithID:(int)shot;
 - (void)setDetails;

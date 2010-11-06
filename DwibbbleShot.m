@@ -12,20 +12,21 @@
 
 @synthesize delegate;
 @synthesize shotID;
-@synthesize title;
+@synthesize shotTitle;
 @synthesize url;
 @synthesize imageURL;
 @synthesize teaserURL;
+@synthesize username;
 @synthesize viewsCount;
 @synthesize likesCount;
 @synthesize commentsCount;
 @synthesize reboundsCount;
 @synthesize creationDate;
+@synthesize playerInfo;
 
 #pragma mark DwibbbleShot Methods
 
 - (void)getShotWithID:(int)shot {
-	shotID = shot;
 	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/shots/%i", shot];
 	request = [[DwibbbleRequest alloc] init];
 	request.delegate = self;
@@ -33,35 +34,37 @@
 }
 
 - (void)setDetails {
-	title = [[data valueForKey:@"title"] retain];
-	url = [[data valueForKey:@"url"] retain];
-	imageURL = [[data valueForKey:@"image_url"] retain];
-	teaserURL = [[data valueForKey:@"image_teaser_url"] retain];
-	viewsCount = (int)[parsedData valueForKey:@"views_count"];
-	likesCount = (int)[parsedData valueForKey:@"likes_count"];
-	commentsCount = (int)[parsedData valueForKey:@"comments_count"];
-	reboundsCount = (int)[parsedData valueForKey:@"rebounds_count"];
-	NSLog(@"We just set all the shot details...");
+	shotTitle = [[parsedData valueForKey:@"title"] retain];
+	url = [[parsedData valueForKey:@"url"] retain];
+	imageURL = [[parsedData valueForKey:@"image_url"] retain];
+	teaserURL = [[parsedData valueForKey:@"image_teaser_url"] retain];
+	username = [[parsedData valueForKey:@"username"] retain];
+	viewsCount = [[parsedData valueForKey:@"views_count"] retain];
+	likesCount = [[parsedData valueForKey:@"likes_count"] retain];
+	commentsCount = [[parsedData valueForKey:@"comments_count"] retain];
+	reboundsCount = [[parsedData valueForKey:@"rebounds_count"] retain];
+	playerInfo = [[parsedData valueForKey:@"player"] retain];
 	[self.delegate receivedShot:self];
 }
 
 - (void)setDetailsWithData:(id)data {
-	title = [[data valueForKey:@"title"] retain];
-	url = [[data valueForKey:@"url"] retain];
+	shotID = [[data valueForKey:@"id"] retain];
 	imageURL = [[data valueForKey:@"image_url"] retain];
+	shotTitle = [[data valueForKey:@"title"] retain];
+	url = [[data valueForKey:@"url"] retain];
 	teaserURL = [[data valueForKey:@"image_teaser_url"] retain];
-	viewsCount = (int)[data valueForKey:@"views_count"];
-	likesCount = (int)[data valueForKey:@"likes_count"];
-	commentsCount = (int)[data valueForKey:@"comments_count"];
-	reboundsCount = (int)[data valueForKey:@"rebounds_count"];
-	NSLog(@"We just set all the shot details...");
+	username = [[data valueForKey:@"username"] retain];
+	viewsCount = [[data valueForKey:@"views_count"] retain];
+	likesCount = [[data valueForKey:@"likes_count"] retain];
+	commentsCount = [[data valueForKey:@"comments_count"] retain];
+	reboundsCount = [[data valueForKey:@"rebounds_count"] retain];
+	playerInfo = [[data valueForKey:@"player"] retain];
 	[self.delegate receivedShot:self];
 }
 
 #pragma mark DwibbbleRequest Delegate Methods
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {
-	NSLog(@"Houston, the request has returned to base!");
 	[request release];
 	parser = [[DwibbbleParser alloc] init];
 	parser.delegate = self;
@@ -77,6 +80,7 @@
 
 - (void)finishedParsing:(NSMutableArray *)parsedJSON {
 	[parser release];
+	[parsedData release];
 	parsedData = parsedJSON;
 	[self setDetails];
 }
