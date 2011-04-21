@@ -24,6 +24,7 @@
 	NSString *shotID;
 	NSString *shotTitle;
 	NSString *url;
+	NSString *shortURL;
 	NSString *imageURL;
 	NSString *teaserURL;
 	NSString *username;
@@ -45,6 +46,7 @@
 @property (readonly) NSString *shotID;
 @property (readonly) NSString *shotTitle;
 @property (readonly) NSString *url;
+@property (readonly) NSString *shortURL;
 @property (readonly) NSString *imageURL;
 @property (readonly) NSString *teaserURL;
 @property (readonly) NSString *username;

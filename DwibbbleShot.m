@@ -14,6 +14,7 @@
 @synthesize shotID;
 @synthesize shotTitle;
 @synthesize url;
+@synthesize shortURL;
 @synthesize imageURL;
 @synthesize teaserURL;
 @synthesize username;
@@ -36,6 +37,7 @@
 - (void)setDetails {
 	shotTitle = [[parsedData valueForKey:@"title"] retain];
 	url = [[parsedData valueForKey:@"url"] retain];
+	shortURL = [[parsedData valueForKey:@"short_url"] retain];
 	imageURL = [[parsedData valueForKey:@"image_url"] retain];
 	teaserURL = [[parsedData valueForKey:@"image_teaser_url"] retain];
 	username = [[parsedData valueForKey:@"username"] retain];
@@ -52,6 +54,7 @@
 	imageURL = [[data valueForKey:@"image_url"] retain];
 	shotTitle = [[data valueForKey:@"title"] retain];
 	url = [[data valueForKey:@"url"] retain];
+	shortURL = [[data valueForKey:@"short_url"] retain];
 	teaserURL = [[data valueForKey:@"image_teaser_url"] retain];
 	username = [[data valueForKey:@"username"] retain];
 	viewsCount = [[data valueForKey:@"views_count"] retain];

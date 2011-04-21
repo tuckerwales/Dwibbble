@@ -14,7 +14,10 @@
 @synthesize delegate;
 
 - (void)getListWithType:(NSString *)type {
-	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/shots/%@", type];
+	NSString *reqURL = [NSString stringWithFormat:@"http://api.dribbble.com/%@", type];
+	if (request != NULL) {
+		request = NULL;
+	}
 	request = [[DwibbbleRequest alloc] init];
 	request.delegate = self;
 	[request requestWithURL:reqURL];
@@ -22,6 +25,9 @@
 
 - (void)receivedDataFromConnection:(NSMutableData *)data {
 	NSLog(@"received!");
+	if (parser != NULL) {
+		[parser release];
+	}
 	parser = [[DwibbbleParser alloc] init];
 	parser.delegate = self;
 	[parser parseWithData:data];
@@ -34,6 +40,9 @@
 #pragma mark DwibbbleParser Delegate Methods
 
 - (void)finishedParsing:(NSDictionary *)parsedJSON {
+	if (cluster != NULL) {
+		[cluster release];
+	}
 	cluster = [[NSMutableArray alloc] init];
 	int count;
 	for (count = 0; count < [[parsedJSON valueForKey:@"shots"] count]; count++) {

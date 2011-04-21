@@ -21,19 +21,27 @@
 #pragma mark Dwibbble Methods
 
 - (void)getShotWithID:(int)shotID {
+	if (shot != NULL) {
+		[shot release];
+	}
 		shot = [[DwibbbleShot alloc] init];
 		shot.delegate = self;
 		[shot getShotWithID:shotID];
 }
 
 - (void)getPlayerWithID:(NSString *)playerID {
-	NSLog(@"OMG");	
+	if (player != NULL) {
+		[player release];
+	}	
 	player = [[DwibbblePlayer alloc] init];
 	player.delegate = self;
 	[player getPlayerWithID:playerID];
 }
 
 - (void)getListWithType:(NSString *)type {
+	if (shotList != NULL) {
+		[shotList release];
+	}
 	shotList = [[DwibbbleList alloc] init];
 	shotList.delegate = self;
 	[shotList getListWithType:type];
